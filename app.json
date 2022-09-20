@@ -1,0 +1,18 @@
+{
+  "name": "Anonim Yükleme Servisi",
+  "description": "Tamamen anonim Dosya Yükleme sistemi Sizin için.",
+  "repository": "AHAAHAHAHAHAHAHAHAH",
+  "logo":"https://cdn.discordapp.com/icons/1010886893791084564/39876dcdec93e80046fcb26d3b2a807f.webp?size=1024",
+  "keywords": ["node", "express", "discord", "cloud", "storage", "file"],
+  "env": {
+    "REDIS_URL": {
+      "required": true
+    },
+    "DISCORD_BOT_TOKEN": {
+      "required": true
+    },
+    "DISCORD_CHANNEL_ID": {
+      "required": true
+    }
+  }
+}
